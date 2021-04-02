@@ -20,8 +20,10 @@ import {
 
 import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
-import Home from "./screens/home";
-import Cart from "./screens/cart";
+
+import Home from "./containers/Home";
+import Cart from "./containers/Cart";
+
 const Stack = createStackNavigator();
 
 const App = () => {
